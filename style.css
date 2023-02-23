@@ -85,9 +85,17 @@ body {
   font-size: 17px;
 }
 
-@media screen and (max-width: 500px) {
-  .container .noteapp {
+@media (max-width: 500px) {
+  .container {
+    display: flex;
     width: auto;
+    height: auto;
+  }
+  .container h2 {
+    margin-top: 20px;
+  }
+  .container .noteapp {
+    width: 250px;
     padding: 20px;
   }
   .container .notes {
